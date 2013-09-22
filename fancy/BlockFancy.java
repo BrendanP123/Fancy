@@ -61,20 +61,6 @@ public class BlockFancy extends SCBlock {
         }
     }
     
-    /**
-     * The type of render function that is called for this block
-     */
-    public int getRenderType()
-    {
-        return 0;
-    }
-    
-    public void onBlockDestroyedByPlayer(World par1World, int par2, int par3, int par4, Explosion par5Explosion)
-    {
-        	System.out.println("testing");
-    }
-
-    
     @Override
     public void registerIcons(IconRegister par1IconRegister)
     {
