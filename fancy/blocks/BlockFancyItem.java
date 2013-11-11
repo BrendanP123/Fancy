@@ -1,4 +1,4 @@
-package fancy;
+package fancy.blocks;
 
 import java.util.List;
 import net.minecraft.entity.player.EntityPlayer;
@@ -7,8 +7,10 @@ import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 
 public class BlockFancyItem extends ItemBlock {
-    public final static String[] colours = new String[] { "Black", "Red", "Green", "Brown", "Blue", "Dark Purple", "Cyan", "Grey", "Dark Grey", "Pink",
-            "Lime", "Yellow", "Light Blue", "Light Purple", "Orange", "White" };
+	//public static final String[] mcColorNames = { "White", "Orange", "Magenta", "Light Blue", "Yellow", "Lime Green", "Pink", "Gray", "Light Gray", "Cyan", "Purple", "Blue", "Brown", "Green", "Red", "Black" };
+	
+	   public final static String[] colours = new String[] { "Black", "Red", "Green", "Brown", "Blue", "Dark Purple", "Cyan", "Grey", "Dark Grey", "Pink",
+           "Lime", "Yellow", "Light Blue", "Light Purple", "Orange", "White" };
 
     public BlockFancyItem(int par1) {
         super(par1);

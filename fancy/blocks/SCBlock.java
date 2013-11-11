@@ -1,4 +1,4 @@
-package fancy;
+package fancy.blocks;
 
 import java.util.Random;
 import net.minecraft.block.material.Material;
@@ -7,6 +7,8 @@ import net.minecraft.util.Icon;
 import net.minecraft.world.World;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import fancy.Fancy;
+import fancy.proxy.ClientProxy;
 
 public class SCBlock extends BlockJC {
 	protected Icon[] iconBuffer;

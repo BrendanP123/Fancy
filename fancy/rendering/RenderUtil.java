@@ -1,4 +1,4 @@
-package fancy;
+package fancy.rendering;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
@@ -19,6 +19,8 @@ import net.minecraft.util.MathHelper;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import org.lwjgl.opengl.GL11;
+
+import fancy.random.ConvertUtil;
 
 /**
  * Utilities designed for rendering.

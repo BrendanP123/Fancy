@@ -1,4 +1,4 @@
-package fancy;
+package fancy.rendering;
 
 import java.util.EnumSet;
 

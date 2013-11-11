@@ -13,12 +13,14 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
 import cpw.mods.fml.common.registry.GameRegistry;
+import fancy.proxy.CommonProxy;
+import fancy.random.CreativeTabFancy;
 
 
 @Mod(
-		modid = "FB01", 
+		modid = "FancyBlocks", 
 		name = "Fancy Blocks", 
-		version = "[0.1]" 
+		version = "[0.2A]" 
 		)
 
 
@@ -30,22 +32,22 @@ import cpw.mods.fml.common.registry.GameRegistry;
 
 public class Fancy {
 	
-	@Instance("FB01")
+	@Instance("FancyBlocks")
 	public static Fancy instance;
 	
 	//SidedProxy annotation to specify the Client and Common proxies
 	@SidedProxy(
-	clientSide = "fancy.ClientProxy",
-	serverSide = "fancy.CommonProxy")
+	clientSide = "fancy.proxy.ClientProxy",
+	serverSide = "fancy.proxy.CommonProxy")
 	public static CommonProxy proxy;
 	
 	
 	//Called during the pre-load phase
 	@EventHandler
     public void PreLoad(FMLPreInitializationEvent event) {
-    	FancyCore.initialize();
     	proxy.loadRenderIds();
         proxy.registerHandlers();
+        
     }
     
     public static CreativeTabs Fancy = new CreativeTabFancy();
@@ -53,15 +55,13 @@ public class Fancy {
 	//Called during the loading phase
     @EventHandler 
 	public void load(FMLInitializationEvent event) {
-
+    	FancyBlocks.initialize();
 	}
 	
 	//Called during the post-load phase
     @EventHandler 
 	public void PostLoad(FMLPostInitializationEvent event) {
-    	
     	proxy.loadRendering();
-    	
 	}
 	
 }

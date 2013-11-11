@@ -1,4 +1,4 @@
-package fancy;
+package fancy.random;
 
 import net.minecraft.item.EnumRarity;
 

@@ -1,4 +1,4 @@
-package fancy;
+package fancy.proxy;
 
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.client.EnumHelperClient;
@@ -11,6 +11,9 @@ import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.registry.TickRegistry;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import fancy.rendering.GlowBrickRender;
+import fancy.rendering.RenderID;
+import fancy.rendering.RenderUtil;
 
 @SideOnly(Side.CLIENT)
 public class ClientProxy extends CommonProxy implements IClientProxy {

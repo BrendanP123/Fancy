@@ -1,4 +1,4 @@
-package fancy;
+package fancy.proxy;
 
 import cpw.mods.fml.client.registry.RenderingRegistry;
 

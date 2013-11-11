@@ -1,5 +1,6 @@
-package fancy;
+package fancy.random;
 
+import fancy.FancyBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -13,7 +14,7 @@ public class CreativeTabFancy extends CreativeTabs {
 
     @Override
     public ItemStack getIconItemStack() {
-        return new ItemStack(Block.blockEmerald);
+        return new ItemStack(FancyBlocks.fancyNetherBrick, 0, 14);
     }
 
     @Override

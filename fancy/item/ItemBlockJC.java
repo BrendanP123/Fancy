@@ -1,6 +1,9 @@
-package fancy;
+package fancy.item;
 
 import java.util.List;
+
+import fancy.blocks.IBlockAddon;
+
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.EnumRarity;

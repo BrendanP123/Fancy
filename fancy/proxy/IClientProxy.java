@@ -1,4 +1,4 @@
-package fancy;
+package fancy.proxy;
 
 /**
  * Base interface for any ForgeModLoader ClientProxy class.

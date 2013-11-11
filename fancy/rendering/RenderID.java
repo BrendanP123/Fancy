@@ -1,4 +1,4 @@
-package fancy;
+package fancy.rendering;
 
 public class RenderID {
     public static int renderIDVordicOre;

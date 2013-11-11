@@ -1,4 +1,4 @@
-package fancy;
+package fancy.random;
 
 import java.io.File;
 import java.util.Random;
@@ -32,6 +32,7 @@ import net.minecraftforge.event.Event;
 import net.minecraftforge.event.entity.player.BonemealEvent;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.registry.GameRegistry;
+import fancy.item.ItemBlockJC;
 
 public class GeneralUtil
 {

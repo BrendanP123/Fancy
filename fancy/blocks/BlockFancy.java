@@ -1,7 +1,9 @@
-package fancy;
+package fancy.blocks;
 
 import java.util.List;
 import cpw.mods.fml.common.registry.GameRegistry;
+import fancy.Fancy;
+import fancy.rendering.RenderID;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.creativetab.CreativeTabs;
@@ -18,22 +20,22 @@ public class BlockFancy extends SCBlock {
     public String texture;
     
     public int[] colours = new int[] {
-        0x191919,
-        0x993333,
-        0x667F33,
-        0x664C33,
-        0x334CB2,
-        0x7F3FB2,
-        0x4C7F99,
-        0x999999,
-        0x4C4C4C,
-        0xF27FA5,
-        0x7FCC19,
-        0xE5E533,
-        0x6699D8,
-        0xB24CD8,
-        0xD87F33,
-        0xFFFFFF
+            0x191919,
+            0x993333,
+            0x667F33,
+            0x664C33,
+            0x334CB2,
+            0x7F3FB2,
+            0x4C7F99,
+            0x999999,
+            0x4C4C4C,
+            0xF27FA5,
+            0x7FCC19,
+            0xE5E533,
+            0x6699D8,
+            0xB24CD8,
+            0xD87F33,
+            0xFFFFFF
     };
 
     

@@ -1,4 +1,4 @@
-package fancy;
+package fancy.rendering;
 
 import java.awt.Color;
 import net.minecraft.block.Block;
@@ -8,6 +8,7 @@ import net.minecraft.world.IBlockAccess;
 import org.lwjgl.opengl.GL11;
 import cpw.mods.fml.client.FMLClientHandler;
 import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
+import fancy.blocks.BlockFancy;
 
 public class GlowBrickRender implements ISimpleBlockRenderingHandler {
     public int[] colours = new int[] {
@@ -28,6 +29,7 @@ public class GlowBrickRender implements ISimpleBlockRenderingHandler {
             0xD87F33,
             0xFFFFFF
         };
+
     
     @Override
     public void renderInventoryBlock(Block block, int metadata, int modelID, RenderBlocks renderer)

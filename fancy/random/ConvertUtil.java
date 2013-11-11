@@ -1,4 +1,4 @@
-package fancy;
+package fancy.random;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.ItemBlock;

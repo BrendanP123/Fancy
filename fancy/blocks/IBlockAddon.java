@@ -1,4 +1,4 @@
-package fancy;
+package fancy.blocks;
 
 import java.util.List;
 

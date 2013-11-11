@@ -1,6 +1,8 @@
-package fancy;
+package fancy.blocks;
 
 import java.util.List;
+
+import fancy.random.RarityHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.player.EntityPlayer;
